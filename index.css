@@ -1,0 +1,65 @@
+body {
+    background-color: #d43636;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#searchInput {
+    width: 80%;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0058a3;
+}
+
+#searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movie-card h2 {
+    color: #333;
+    font-size: 18px;
+}
+
+.movie-card p {
+    color: #666;
+}
+
+.movie-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+#movieDetails {
+    text-align: center;
+    margin-top: 20px;
+}
